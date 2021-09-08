@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Jungle-Devs---React-Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is part of the React developer selection process in the Boost program of the Jungle Devs Team. 
 
-## Available Scripts
+I implmented a simplified version of Hapu’s ‘Become a Nanny Share Host’ view of this desing [FIGMA](https://www.figma.com/file/iBxoiuoSXy3SiOAnwXo2Np/Frontend-%E2%80%93-Challenge-1) 
 
-In the project directory, you can run:
+## Languages & tools
 
-### `yarn start`
+- Javascript
+- React
+- Axios
+- Styled-components 
+- Lib (for the A/B test) - @marvelapp/react-ab-test [Link](https://www.npmjs.com/package/@marvelapp/react-ab-test)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Live Version
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To deploy a live version i used surge.
 
-### `yarn test`
+Surge [Link](https://lively-brush.surge.sh/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation and Setup Instructions
 
-### `yarn build`
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installation:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+$ git clone https://github.com/ZanalikSL/Jungle-Devs---React-Challenge.git
+$ cd Jungle-Devs---React-Challenge
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Use
 
-### `yarn eject`
+```bash
+# Install dependencies
+$ npm i
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Start the project
+$ npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Create production builds
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+$ cd Jungle-Devs---React-Challenge
+$ npm run build
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## CSS Media Queries
 
-## Learn More
+To see the mobile and the desktop version, use the width of 1440p (Desktop) 
+![image](https://user-images.githubusercontent.com/71197933/132429409-77884215-5279-4e2f-ac4c-93c49bf67c5a.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+and 375p (Mobile) 
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://user-images.githubusercontent.com/71197933/132429524-cb354e2c-77fe-4552-93ba-a820243036fb.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## A/B test
 
-### Making a Progressive Web App
+I implemented a A/B test persistent for the user, that display the design version or a second version. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To switch between versions, just access Local Storage in yout broswer and modify the value between the values: "A" or "B".
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT](https://choosealicense.com/licenses/mit/)
