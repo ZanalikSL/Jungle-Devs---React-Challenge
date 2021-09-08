@@ -7,7 +7,7 @@ import {
   StyledH2,
 } from './styled'
 
-export const Section1 = () => {
+export const ShareYourHome = () => {
   return (
     <MainContent>
       <TextContent>

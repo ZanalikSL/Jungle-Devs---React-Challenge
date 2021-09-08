@@ -1,7 +1,7 @@
-import { InputContainer } from './components/inputContainer'
+import { InputContainer } from './components/InputContainer'
 import { Header } from './components/Header'
 import { Banner } from './components/Banner'
-import { Section1 } from './components/Section1'
+import { ShareYourHome } from './components/ShareYourHome'
 import { Divider } from './components/Divider'
 import { SharedPayment } from './components/SharedPayment'
 import { FrameworkSection } from './components/FrameworkSection'
@@ -13,7 +13,7 @@ function App() {
     <>
       <Header />
       <Banner />
-      <Section1 />
+      <ShareYourHome />
       <Divider />
       <InputContainer />
       <Divider />
