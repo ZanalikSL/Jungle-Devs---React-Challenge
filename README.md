@@ -1,7 +1,5 @@
 # Jungle-Devs---React-Challenge
 
-This project is part of the React developer selection process in the Boost program of the Jungle Devs Team. 
-
 I implmented a simplified version of Hapu’s ‘Become a Nanny Share Host’ view of this desing [FIGMA](https://www.figma.com/file/iBxoiuoSXy3SiOAnwXo2Np/Frontend-%E2%80%93-Challenge-1) 
 
 ## Languages & tools
